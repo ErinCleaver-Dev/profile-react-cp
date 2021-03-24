@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Erin Cleaver",
+  title: "Hi all, I'm Erin",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "I am studing to be a full stack developer.  Currently working with customers in techinical support for the usda."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,15 +22,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
+  github: "https://github.com/ErinCleaver-GRCC",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  gmail: "ecleaver@live.com",
   // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // facebook: "https://www.facebook.com/",,
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +34,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Tier 1 Techincical support",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Help customers with thier techinical issues through chat."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Teach them how to perform tasks within their computer."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Lastly write up tickets about users issues."
     )
   ],
 
@@ -60,10 +56,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -89,10 +81,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -103,22 +91,25 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "GRCC (Grand Rapids Community College)",
+      subHeader: "Associate of Applied Arts & Sciences, Computer programming",
+      duration: "September 2017 - current",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Davenport University",
+      subHeader: "BBA, Accounting",
+      duration: "September 2008 - April 2010",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "GRCC (Grand Rapids Community College)",
+      subHeader: "Associates of Business, Accounting",
+      duration: "September 2005 - April 2008",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -130,17 +121,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
+      Stack: "Remedy on Demand", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Activee Directory",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Office prodcuts",
       progressPercentage: "90%"
-    }
+    },
+    {
+      Stack: "SCCM, Software center",
+      progressPercentage: "60%"
+    }, 
+    {
+      Stack: "Windows Server",
+      progressPercentage: "60%"
+    }, 
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -151,34 +150,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "USDA Technical Server Representative (General Clear 3)",
+      companylogo: require("./assets/images/PeckhamInc.png"),
+      date: "Feb 2015 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Working as tier 1 techinical support",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Answer customers computer questions through chat",
+        "Type up tickets quickly",
+        "Handle up to 4 customers at once",
+        "Customer service skills"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Data Entry Assistant",
+      company: "Meletrotter",
+      companylogo: require("./assets/images/Meletrotter.png"),
+      date: "July 2012 – Jan 2015",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Performed Data entry at Meletrotter for donations"
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Accounting Assistant",
+      company: "Habitat of Humanity of Kent County",
+      companylogo: require("./assets/images/habitatforhumanityLogo.png"),
+      date: "April 2013 – Sep 2013",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Did basic accounting tasks under the direction from the Sinor Accountant."
     }
   ]
 };
@@ -188,7 +186,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "ecleaver", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -196,28 +194,28 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "NA",
+  subtitle: "NA",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "NA",
+      projectDesc: "NA",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
+          name: "NA",
+          url: "NA"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "NA",
+      projectDesc: "NA",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "NA",
           url: ""
         }
       ]
@@ -230,7 +228,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  /*title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -285,13 +283,13 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true*/
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  /*title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
@@ -310,13 +308,13 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true*/
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+ /* title: "TALKS",
   subtitle: emoji(
     ""
   ),
@@ -329,35 +327,35 @@ const talkSection = {
       event_url: ""
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true*/
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  /*title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     ""
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true*/
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+    "Please contact by email",
+  //number: "(323) 768 0674",
+  email_address: "ecleaver@live.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  //userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  //display: true // Set true to display this section, defaults to false
 };
 
 export {
