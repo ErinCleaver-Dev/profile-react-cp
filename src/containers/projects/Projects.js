@@ -16,7 +16,7 @@ export default function Projects() {
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
   useEffect(() => {
-    getRepoData();
+    //getRepoData();
   }, []);
 
   function getRepoData() {
