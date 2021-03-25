@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/profile-react-cp/static/css/main.0ac408f2.chunk.css",
-    "main.js": "/profile-react-cp/static/js/main.56dcc90f.chunk.js",
-    "main.js.map": "/profile-react-cp/static/js/main.56dcc90f.chunk.js.map",
-    "runtime-main.js": "/profile-react-cp/static/js/runtime-main.f00307c9.js",
-    "runtime-main.js.map": "/profile-react-cp/static/js/runtime-main.f00307c9.js.map",
-    "static/js/2.f5df48de.chunk.js": "/profile-react-cp/static/js/2.f5df48de.chunk.js",
-    "static/js/2.f5df48de.chunk.js.map": "/profile-react-cp/static/js/2.f5df48de.chunk.js.map",
+    "main.js": "/profile-react-cp/static/js/main.3974cff9.chunk.js",
+    "main.js.map": "/profile-react-cp/static/js/main.3974cff9.chunk.js.map",
+    "runtime-main.js": "/profile-react-cp/static/js/runtime-main.55c708d1.js",
+    "runtime-main.js.map": "/profile-react-cp/static/js/runtime-main.55c708d1.js.map",
+    "static/js/2.6898a5f5.chunk.js": "/profile-react-cp/static/js/2.6898a5f5.chunk.js",
+    "static/js/2.6898a5f5.chunk.js.map": "/profile-react-cp/static/js/2.6898a5f5.chunk.js.map",
     "static/css/3.2f42733b.chunk.css": "/profile-react-cp/static/css/3.2f42733b.chunk.css",
-    "static/js/3.4d81cab7.chunk.js": "/profile-react-cp/static/js/3.4d81cab7.chunk.js",
-    "static/js/3.4d81cab7.chunk.js.map": "/profile-react-cp/static/js/3.4d81cab7.chunk.js.map",
+    "static/js/3.7e36d3de.chunk.js": "/profile-react-cp/static/js/3.7e36d3de.chunk.js",
+    "static/js/3.7e36d3de.chunk.js.map": "/profile-react-cp/static/js/3.7e36d3de.chunk.js.map",
     "static/css/4.18f0a633.chunk.css": "/profile-react-cp/static/css/4.18f0a633.chunk.css",
-    "static/js/4.ac546230.chunk.js": "/profile-react-cp/static/js/4.ac546230.chunk.js",
-    "static/js/4.ac546230.chunk.js.map": "/profile-react-cp/static/js/4.ac546230.chunk.js.map",
+    "static/js/4.ca8e4ac5.chunk.js": "/profile-react-cp/static/js/4.ca8e4ac5.chunk.js",
+    "static/js/4.ca8e4ac5.chunk.js.map": "/profile-react-cp/static/js/4.ca8e4ac5.chunk.js.map",
     "index.html": "/profile-react-cp/index.html",
     "static/css/3.2f42733b.chunk.css.map": "/profile-react-cp/static/css/3.2f42733b.chunk.css.map",
     "static/css/4.18f0a633.chunk.css.map": "/profile-react-cp/static/css/4.18f0a633.chunk.css.map",
     "static/css/main.0ac408f2.chunk.css.map": "/profile-react-cp/static/css/main.0ac408f2.chunk.css.map",
-    "static/js/2.f5df48de.chunk.js.LICENSE.txt": "/profile-react-cp/static/js/2.f5df48de.chunk.js.LICENSE.txt",
+    "static/js/2.6898a5f5.chunk.js.LICENSE.txt": "/profile-react-cp/static/js/2.6898a5f5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/profile-react-cp/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/contactMailDark.svg": "/profile-react-cp/static/media/contactMailDark.1db650d3.svg",
     "static/media/developerActivity.svg": "/profile-react-cp/static/media/developerActivity.2c0445ca.svg",
@@ -26,9 +26,9 @@
     "static/media/TalkCard.css": "/profile-react-cp/static/media/talksCardBack.99241699.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f00307c9.js",
-    "static/js/2.f5df48de.chunk.js",
+    "static/js/runtime-main.55c708d1.js",
+    "static/js/2.6898a5f5.chunk.js",
     "static/css/main.0ac408f2.chunk.css",
-    "static/js/main.56dcc90f.chunk.js"
+    "static/js/main.3974cff9.chunk.js"
   ]
 }
